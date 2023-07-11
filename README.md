@@ -1,5 +1,7 @@
 ### ES3ink is board design to control e-ink displays. 
 
-This repo will hold HW and SW information for this board. 
+This repo hold HW and SW (to be done) information for this board.
+
+Board is mostly working, but still have some issues so **I do not recommend** to make it.   
 
 It can be used with either Arduino or [CircuitPython](https://github.com/dronecz/circuitpython).
