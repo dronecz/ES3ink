@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 39,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -33,7 +33,6 @@
       2,
       3,
       4,
-      5,
       8,
       9,
       10,
@@ -42,8 +41,6 @@
       13,
       15,
       16,
-      17,
-      18,
       19,
       20,
       21,
@@ -63,8 +60,8 @@
       36,
       40
     ],
-    "visible_layers": "0009130_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "fffffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "ES3ink.kicad_prl",
@@ -78,10 +75,22 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1066
+          "pos_x": 731,
+          "pos_y": 1692,
+          "size_x": 1280,
+          "size_y": 366
+        }
+      },
+      {
+        "name": "ES3ink.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 1195,
+          "pos_y": 0,
+          "size_x": 927,
+          "size_y": 863
         }
       }
     ]
