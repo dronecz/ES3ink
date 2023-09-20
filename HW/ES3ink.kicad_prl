@@ -63,7 +63,7 @@
       36,
       40
     ],
-    "visible_layers": "0001020_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -74,18 +74,6 @@
     "files": [
       {
         "name": "ES3ink.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1912,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1066
-        }
-      },
-      {
-        "name": "ES3ink.kicad_sch",
         "open": false,
         "window": {
           "display": 1,
