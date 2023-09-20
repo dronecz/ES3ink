@@ -58,7 +58,6 @@
       "drc_exclusions": [
         "lib_footprint_issues|21827000|-20584200|9c0cd78d-57dc-41fb-99e4-d032a04bdb79|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|28500000|-20584200|5fabd015-3278-4205-8423-710437be0f67|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|3500000|-15000000|f9c604fe-fb28-4e84-bf35-08ff24c25184|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|8300000|-2000000|688150b1-778b-4c1f-a12e-f7386d388059|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|8300000|-28000000|706cea74-28b6-4760-b764-1bc71812ec77|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|25220814|-24888140|df02c7f2-f0ef-4887-bc35-767578284245|00000000-0000-0000-0000-000000000000",
@@ -505,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ES3ink_rev_Bi2_vertical.kicad_pro",
+    "filename": "ES3ink.kicad_pro",
     "version": 1
   },
   "net_settings": {

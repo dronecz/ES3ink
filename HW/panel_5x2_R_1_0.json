@@ -1,0 +1,50 @@
+{
+    "layout": {
+        "alternation": "cols",
+        "hspace": "2mm",
+        "vspace": "4mm",
+        "rows": "5",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "15mm",
+        "hwidth": "10mm"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "User.1"
+    },
+    "framing": {
+        "type": "railstb",
+        "width": "6mm",
+        "fillet": "1mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "3mm",
+        "voffset": "3mm",
+        "size": "3mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "3mm",
+        "width": "2mm",
+        "height": "2mm",
+        "text": "ES3ink panel R1.0"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-3mm",
+        "text": "JLCJLCJLCJLC",
+        "anchor": "mb"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}
