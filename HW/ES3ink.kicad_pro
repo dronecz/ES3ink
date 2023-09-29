@@ -57,11 +57,7 @@
       ],
       "drc_exclusions": [
         "lib_footprint_issues|8300000|-2000000|688150b1-778b-4c1f-a12e-f7386d388059|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|8300000|-28000000|706cea74-28b6-4760-b764-1bc71812ec77|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|24062000|0|6e3a28ec-a56b-4c8e-be7d-92cf32e9e12e|55ae7c3e-daef-4d2b-8dc0-c0d0674d823f",
-        "silk_edge_clearance|41712000|0|6e3a28ec-a56b-4c8e-be7d-92cf32e9e12e|d2935d6f-f464-4556-bcb3-9d2a177b268f",
-        "silk_edge_clearance|50782000|0|6e3a28ec-a56b-4c8e-be7d-92cf32e9e12e|360a74ef-b25d-4410-acdc-bdcab15c2ec1",
-        "silk_edge_clearance|60182000|-78812|ecc7fae5-1f84-42f2-a158-eca9f67f661a|8caf8d32-7270-49bd-aa7a-4cf6f2663095"
+        "lib_footprint_issues|8300000|-28000000|706cea74-28b6-4760-b764-1bc71812ec77|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -120,7 +116,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.39999999999999997,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,

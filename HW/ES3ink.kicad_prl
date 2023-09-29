@@ -60,8 +60,8 @@
       36,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "0001000_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ES3ink.kicad_prl",
@@ -71,26 +71,14 @@
     "files": [
       {
         "name": "ES3ink.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 731,
-          "pos_y": 1692,
+          "pos_x": 351,
+          "pos_y": 378,
           "size_x": 1280,
-          "size_y": 366
-        }
-      },
-      {
-        "name": "ES3ink.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": 1195,
-          "pos_y": 0,
-          "size_x": 927,
-          "size_y": 863
+          "size_y": 425
         }
       }
     ]
