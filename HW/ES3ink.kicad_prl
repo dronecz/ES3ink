@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 39,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -16,7 +16,7 @@
     },
     "selection_filter": {
       "dimensions": true,
-      "footprints": true,
+      "footprints": false,
       "graphics": true,
       "keepouts": true,
       "lockedItems": true,
@@ -61,7 +61,7 @@
       40
     ],
     "visible_layers": "0001000_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "ES3ink.kicad_prl",
@@ -71,11 +71,11 @@
     "files": [
       {
         "name": "ES3ink.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
+          "pos_x": 1912,
           "pos_y": -8,
           "size_x": 1936,
           "size_y": 1066
