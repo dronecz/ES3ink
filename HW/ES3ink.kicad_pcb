@@ -1005,7 +1005,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54495e99-3648-4b89-a562-910a3c928404)
     )
-    (fp_text value "10K" (at 0 1.65 90) (layer "F.Fab") hide
+    (fp_text value "1M" (at 0 1.65 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c8de6ef0-e1ee-4380-a0f9-233311da5de9)
     )

@@ -6235,7 +6235,7 @@
     (property "Reference" "R18" (at 143.51 144.78 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10K" (at 143.51 147.32 90)
+    (property "Value" "1M" (at 143.51 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 143.51 145.542 90)
