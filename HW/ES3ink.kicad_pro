@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.1,
-          "width": 1.6
+          "height": 0.8,
+          "width": 0.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,22 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_issues|21827000|-20584200|9c0cd78d-57dc-41fb-99e4-d032a04bdb79|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|28500000|-20584200|5fabd015-3278-4205-8423-710437be0f67|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|3500000|-15000000|f9c604fe-fb28-4e84-bf35-08ff24c25184|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|8300000|-2000000|688150b1-778b-4c1f-a12e-f7386d388059|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|8300000|-28000000|706cea74-28b6-4760-b764-1bc71812ec77|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|25220814|-24888140|df02c7f2-f0ef-4887-bc35-767578284245|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|3000000|-1950000|7acdd18b-f804-4e93-8563-eff7dcbcdefa|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|3000000|-27950000|dec7ba52-9778-417d-8815-ec019b8fae08|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|32887000|-1861250|3e446719-7028-4360-b3fd-672e598fe3f5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|45724500|-16850400|d20622fb-f4b5-4612-b8fa-812b6eae5112|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|46160200|-26756400|193a8692-e303-4238-ac34-cf9f8b221c49|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|55482000|-2431500|7b36f2d5-77ec-461e-872e-b5d7ca3ba724|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|24062000|0|6e3a28ec-a56b-4c8e-be7d-92cf32e9e12e|55ae7c3e-daef-4d2b-8dc0-c0d0674d823f",
-        "silk_edge_clearance|41712000|0|6e3a28ec-a56b-4c8e-be7d-92cf32e9e12e|d2935d6f-f464-4556-bcb3-9d2a177b268f",
-        "silk_edge_clearance|50782000|0|6e3a28ec-a56b-4c8e-be7d-92cf32e9e12e|360a74ef-b25d-4410-acdc-bdcab15c2ec1",
-        "silk_edge_clearance|60182000|-78812|ecc7fae5-1f84-42f2-a158-eca9f67f661a|8caf8d32-7270-49bd-aa7a-4cf6f2663095"
+        "clearance|42380000|-3480000|cb69c196-d181-4884-b03e-1665630bee30|ada35fc6-1e88-4e7e-882f-14109034e7c9"
       ],
       "meta": {
         "version": 2
@@ -130,7 +115,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.39999999999999997,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -145,7 +130,7 @@
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -505,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ES3ink_rev_Bi2_vertical.kicad_pro",
+    "filename": "ES3ink.kicad_pro",
     "version": 1
   },
   "net_settings": {
