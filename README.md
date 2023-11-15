@@ -1,9 +1,5 @@
-View this project on [CADLAB.io](https://cadlab.io/project/27168). 
+### ES3ink is a board designed to control e-ink displays. 
 
-### ES3ink is board design to control e-ink displays. 
+This repo holds HW and SW (to be done) information for this board.
 
-This repo hold HW and SW (to be done) information for this board.
-
-Board is mostly working, but still have some issues so **I do not recommend** to make it.   
-
-It can be used with either Arduino or [CircuitPython](https://github.com/dronecz/circuitpython).
+It can be used with Arduino or [CircuitPython](https://github.com/dronecz/circuitpython).
