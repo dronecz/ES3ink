@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ES3ink")
+    (rev "P1.1")
+  )
+
   (lib_symbols
     (symbol "Battery_Management:MCP73831-2-OT" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -7.62 6.35 0)
