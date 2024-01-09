@@ -43,7 +43,7 @@
     (aux_axis_origin 109.711 135.0271)
     (grid_origin 109.728 135.0271)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x0030000_7ffffffe)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -66,13 +66,13 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory "")
     )
@@ -397,7 +397,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp ac055e7d-246c-4005-b138-910bff34134f)
     )
-    (fp_text value "MountingHole" (at 0 3.8) (layer "F.Fab")
+    (fp_text value "MountingHole" (at 0 3.8) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 95846675-167c-491b-8908-f3b5b879da89)
     )
@@ -1059,7 +1059,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 44b25974-deff-41fb-a90a-0eb9610ff884)
     )
-    (fp_text value "2R2" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "2R2" (at 0 1.65 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e623024-3ef1-4e46-8d87-7713a1d979b2)
     )
@@ -1165,7 +1165,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp ea7b5247-8f76-4c90-bf59-2d1adae59cad)
     )
-    (fp_text value "Conn_01x24_Pin" (at -0.2476 3.1936) (layer "F.Fab")
+    (fp_text value "Conn_01x24_Pin" (at -0.2476 3.1936) (layer "F.Fab") hide
         (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp b4cef3e6-ce34-448b-bfa2-a68d08d4d409)
     )
@@ -1272,7 +1272,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
       (tstamp 9b7eceef-facc-41ce-a8b9-b1c7964cef4b)
     )
-    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 7.62 90 unlocked) (layer "F.Fab")
+    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 7.62 90 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e8f4c935-7ab9-4e66-98b8-1755aeea0a32)
     )
@@ -1770,7 +1770,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 3e088917-4b5c-45e5-af18-d2bffc3c2ed9)
     )
-    (fp_text value "10K" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "10K" (at 0 1.65 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ae9f2b6-974d-441a-9756-b340cc86d751)
     )
@@ -1878,7 +1878,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp d1b5bb2b-4868-4694-b1c3-061ff6e1a639)
     )
-    (fp_text value "MountingHole" (at 0 3.8) (layer "F.Fab")
+    (fp_text value "MountingHole" (at 0 3.8) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 998a0a9b-c598-4e68-a490-b9d775ca52ff)
     )
@@ -2100,11 +2100,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiPCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkb2thT25lIiwgIkhlaWdodEN0cmwiOiAiMC45IiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlBXUiIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-659DC4DE" (at 0 -3.877866) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 11967e8f-cb77-429d-b46c-7e274afc69ea)
     )
     (fp_text value "G***" (at 0 3.877866) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp e9548a0f-235b-4e54-8e15-179269f820f3)
     )
     (fp_poly
@@ -2748,11 +2748,11 @@
     (property "ki_keywords" "N-Channel MOSFET")
     (path "/79e18584-ffcc-4391-9dd7-2296143eeacc")
     (attr smd)
-    (fp_text reference "Q2" (at -0.05 -1.95 -90) (layer "F.Fab") hide
+    (fp_text reference "Q2" (at -0.05 -1.95 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 9b588280-9e44-4038-b078-7aa2b6b75d3e)
     )
-    (fp_text value "SI1308EDL-T1-GE3" (at -0.05 2.05 -90) (layer "F.Fab")
+    (fp_text value "SI1308EDL-T1-GE3" (at -0.05 2.05 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7738c0e3-8481-44c4-ae97-4a013ea515ae)
     )
@@ -2990,7 +2990,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 143e98ca-d47b-4936-b8ed-124e25a3654c)
     )
-    (fp_text value "SW_SPST" (at 0 4 180 unlocked) (layer "F.Fab")
+    (fp_text value "SW_SPST" (at 0 4 180 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f1e7064b-cc24-47c3-a31b-294a3d6eb806)
     )
@@ -3220,7 +3220,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 5479569f-b82b-42f3-9cf1-912e1ce14c43)
     )
-    (fp_text value "WS2812B" (at 0 2.2) (layer "F.Fab")
+    (fp_text value "WS2812B" (at 0 2.2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 97422936-5340-430e-875c-6c35966e4fff)
     )
@@ -3757,7 +3757,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp f622f892-e4d7-4d6b-bae8-ae4dd47aa7c3)
     )
-    (fp_text value "10uH/1A" (at 0 2.65) (layer "F.Fab")
+    (fp_text value "10uH/1A" (at 0 2.65) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6c6077b5-77e9-4d33-a903-483e4a4518ff)
     )
@@ -9498,7 +9498,7 @@
         (effects (font (size 0.5 0.5) (thickness 0.08)) (justify mirror))
       (tstamp c60a3b97-a5d5-4244-8209-13e6a8cceead)
     )
-    (fp_text value "SolderJumper_2_Open" (at 0 -1.9 90) (layer "B.Fab")
+    (fp_text value "SolderJumper_2_Open" (at 0 -1.9 90) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f95130d9-a8c3-4dc9-b138-12170085f2f3)
     )
