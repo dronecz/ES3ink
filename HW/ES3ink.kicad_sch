@@ -6,7 +6,7 @@
 
   (title_block
     (title "ES3ink")
-    (rev "P1.1")
+    (rev "P1.2")
   )
 
   (lib_symbols
@@ -3704,7 +3704,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a23e4f0c-5e72-490d-81e5-1834e65e375f)
   )
-  (text "Pin connection: \n\nEN  : Reset button\nIO0 : Boot button\nIO1 :\nIO2 : Battery reading\nIO3 : \nIO4 : \nIO5 : EPD Reset\nIO6 : EPD Busy \nIO7 : EPD DC\nIO8 : Qwiic SDA\nIO9 : Qwiic SCL\nIO10: EPD CS\nIO11: MOSI\nIO12: MISO\nIO13: CLK\nIO14: RGB LED power\nIO15: \nIO16: \nIO17:\nIO18: \nIO19:\nIO20: USB D+\nIO21: USB D-\nIO38: Double Reset\nIO39: \nIO40: Enable battery reading\nIO41: \nIO42: \nIO43: \nIO44:\nIO45:\nIO46: EPD power\nIO47:\nIO48: RGB LED data\n"
+  (text "Pin connection: \n\nEN  : Reset button\nIO0 : Boot button\nIO1 :\nIO2 : Battery reading\nIO3 : EPD power\nIO4 : \nIO5 : EPD Reset\nIO6 : EPD Busy \nIO7 : EPD DC\nIO8 : Qwiic SDA\nIO9 : Qwiic SCL\nIO10: EPD CS\nIO11: MOSI\nIO12: MISO\nIO13: CLK\nIO14: RGB LED power\nIO15: \nIO16: \nIO17:\nIO18: \nIO19:\nIO20: USB D+\nIO21: USB D-\nIO38: Double Reset\nIO39: \nIO40: Enable battery reading\nIO41: \nIO42: \nIO43: \nIO44:\nIO45:\nIO46: \nIO47:\nIO48: RGB LED data\n"
     (at 250.19 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f84c56af-96c2-4d0f-8848-d46e729874c2)
@@ -3902,7 +3902,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9e4ebcd8-70fa-484f-8806-2e3cbbd65468)
   )
-  (label "IO46" (at 265.43 48.26 0) (fields_autoplaced)
+  (label "IO3" (at 265.43 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a18c0b32-d93d-4b72-854e-21fdcae7856d)
   )

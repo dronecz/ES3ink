@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -62,8 +62,8 @@
       36,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "0001020_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ES3ink.kicad_prl",
@@ -75,21 +75,9 @@
         "name": "ES3ink.kicad_pcb",
         "open": false,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1066
-        }
-      },
-      {
-        "name": "ES3ink.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
+          "pos_x": 1912,
           "pos_y": -8,
           "size_x": 1936,
           "size_y": 1066
